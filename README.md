@@ -9,8 +9,8 @@ Run
 
 Then, checkout this repo to /var/www/html:
 
- cd /var/www ; rm -rf html ; git clone <this-repo> ; mv <this-repo> html
+ cd /var/www ; mv html html-old ; git clone <this-repo> ; mv <this-repo> html
 
-This makes the API endpoints available as static json, which works acts as a mock.
+This makes the API endpoints available as static json, which acts as a mock.
 
 
